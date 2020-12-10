@@ -6,7 +6,7 @@ Free Full Games is the my first Responsive WebSite. It is not completely finishe
 ```
 # Download using this code:
 
-git clone https://www.github.com/FluxionNetwork/fluxion.git
+git clone https://github.com/muki01/ResponsiveSite.git
 ```
 
 ## :scroll: Changelog
