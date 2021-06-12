@@ -11,7 +11,7 @@ git clone https://github.com/muki01/ResponsiveSite.git
 
 ## :scroll: Changelog
 Free Full Games gets weekly updates with new features, improvements, and bugfixes.
-Be sure to check out the [changelog here](https://www.google.com).
+Be sure to check out the [changelog here]().
 
 This is a Login Page
 ![login](https://user-images.githubusercontent.com/75759731/101701270-422a5a80-3a87-11eb-895e-db733e720c1d.png)
