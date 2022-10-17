@@ -20,5 +20,5 @@ Be sure to check out the [changelog here]().
 <br>
 <br>
 
-## This is one of Manus
+## This is one of Menus
 ![b](https://user-images.githubusercontent.com/75759731/196292207-c7ce88ae-ece6-4a0b-97c0-49e9bde86996.jpeg)
