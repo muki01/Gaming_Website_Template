@@ -120,6 +120,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 #main .blogArea .blog {
@@ -194,7 +195,6 @@ body {
 
 #main .blogArea .buttonArea .btn {
   padding: 10px;
-  margin-bottom: 15px;
   font-size: 16px;
   color: white;
   background-color: rgb(99, 202, 159);

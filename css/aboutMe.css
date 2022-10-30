@@ -120,12 +120,13 @@ body {
 #main .blogArea {
   width: 72%;
   height: auto;
+  margin-bottom: 20px;
 }
 
 #main .blogArea .blog {
   width: 100%;
   height: auto;
-  padding-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   background-color: #f8f8f8;
@@ -139,11 +140,11 @@ body {
 
 #main .blogArea .row1 h1 {
   width: 68%;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 #main .blogArea .row2 h1 {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 
@@ -422,6 +423,15 @@ body {
   #main .container {
     width: 95%;
   }
+  
+  #main .blogArea .row1 h1 {
+    width: 68%;
+    font-size: 18px;
+  }
+  
+  #main .blogArea .row2 h1 {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -456,7 +466,17 @@ body {
 
 @media screen and (max-width: 620px) {
   #main .blogArea .blog {
+    display: block;
+    text-align: center;
+  }
+  #main .blogArea .row1 img {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  
+  #main .blogArea .row1 h1 {
     width: 100%;
+    margin-bottom: 20px;
   }
 
   #footer .textArea {
