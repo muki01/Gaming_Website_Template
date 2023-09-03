@@ -1,5 +1,5 @@
 # 🎮Game Store
- This is my Game Store Web Template. You can see pictures of all the pages below.
+ This is my responsive Game Store Web Template. You can see pictures of all the pages below.
 
 # ⬇️Download the latest revision
 Download using this code:
@@ -7,49 +7,56 @@ Download using this code:
 git clone https://github.com/muki01/Gaming_Website_Template.git
 ```
 
-# Home Page
+# 🏠Home Page
 
-  ![home](https://github.com/muki01/Game_Store-Angular/assets/75759731/c9603d99-55eb-4c3a-8067-88afd9b60efc)
-
-# Login Page
-
-![login](https://github.com/muki01/Game_Store-Angular/assets/75759731/e5940aa7-46d6-4507-92d6-93cbc282ec35)
-
-# Register Page
+  ![Home](https://github.com/muki01/Gaming_Website_Template/assets/75759731/ac804b68-06f3-4f84-9a46-fee686aff6e6)
   
-![Register](https://github.com/muki01/Game_Store-Angular/assets/75759731/50dcced8-0fbc-47f6-9b19-a7bab3d427d1)
 
-# Create new game
+# 🔑Login Page
 
-![Create Game](https://github.com/muki01/Game_Store-Angular/assets/75759731/be7e7a23-962d-4c8f-9d2e-e510f554d437)
+![Login](https://github.com/muki01/Gaming_Website_Template/assets/75759731/a02700eb-b66d-45bf-8bc9-3f288db83bbb)
 
-# Profile Page
 
-![Profile](https://github.com/muki01/Game_Store-Angular/assets/75759731/f73ca479-f644-4b10-9ce3-ffda9aab5b44)
+# ✍🏻Register Page
+  
+![Register](https://github.com/muki01/Gaming_Website_Template/assets/75759731/4f19d9eb-21ed-4093-8210-31fdb0cf97ba)
 
-# Game Category Page
-This is one of the categorized games pages. This page contains only the selected category of games.
 
-![Category Page](https://github.com/muki01/Game_Store-Angular/assets/75759731/0422f6a0-c505-441b-b5ee-8d8c4acb483d)
+# ✍🏻Create new game
 
-* If there are no games
+![Create](https://github.com/muki01/Gaming_Website_Template/assets/75759731/bc2163e5-9d3e-4f4d-bbfb-d6db61006467)
 
-![No Games](https://github.com/muki01/Game_Store-Angular/assets/75759731/e142e100-312b-4560-a3e0-f47efe3cd618)
+
+# 👨‍💻Profile Page
+
+![Profile](https://github.com/muki01/Gaming_Website_Template/assets/75759731/278157c4-b639-4d28-ac04-a40f86edcef6)
+
+
+# 🌴Game Category Page
+
+![Category](https://github.com/muki01/Gaming_Website_Template/assets/75759731/60b196a8-5d60-4701-a027-17552f285f6d)
 
 
 # Details Page
   
-![Game Details](https://github.com/muki01/Game_Store-Angular/assets/75759731/3dfe9ccd-0889-4a0b-8c2d-c3bbeb3e1b40)
+![Details](https://github.com/muki01/Gaming_Website_Template/assets/75759731/71ddf756-1be6-495b-8196-2b85a86f31de)
 
 
 # Edit Page
-Edit page where logged in Admin users can update Game offers
 
-![Edit Page](https://github.com/muki01/Game_Store-Angular/assets/75759731/7e5fc282-243a-4365-8e43-33744254133c)
+![Edit](https://github.com/muki01/Gaming_Website_Template/assets/75759731/7418cfc7-dacc-4a23-a895-153c27a6051a)
 
 
 # 404 Not Found
-404 page comes when you try to access routes that don't exist.
 
-![404 page](https://github.com/muki01/Game_Store-Angular/assets/75759731/fb5d313c-d538-43f7-a292-43c42eef46ca)
+![404](https://github.com/muki01/Gaming_Website_Template/assets/75759731/ed6a8335-68f2-4682-a899-ce56fd209e64)
 
+# Error Fields
+All pages have error fields.
+
+![Error](https://github.com/muki01/Gaming_Website_Template/assets/75759731/bac6b58e-ee60-445d-9630-b68768b3cddc)
+
+# No Games Fields
+All pages have No Games fields.
+
+![NoGames](https://github.com/muki01/Gaming_Website_Template/assets/75759731/a21a45c6-06ce-4092-a0b7-d66205653c93)
