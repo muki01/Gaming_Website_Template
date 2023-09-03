@@ -1,6 +1,8 @@
 # 🎮Game Store
  This is my responsive Game Store Web Template. You can see pictures of all the pages below.
 
+ I made a single page application (SPA) with Angular using this template, if you want you can visit it from [here](https://github.com/muki01/Game_Store-Angular).
+
 # ⬇️Download the latest revision
 Download using this code:
 ```
