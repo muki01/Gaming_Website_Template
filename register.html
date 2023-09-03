@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GameStore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="img/logo.ico">
+  <!-- GOOGLE FONTS CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/login_register_edit_create.css">
+</head>
+
+<body>
+
+  <!-- <div class="error">
+    <div class="errorBox">
+      <div class="container">
+        <h1>Error</h1>
+      </div>
+    </div>
+  </div> -->
+
+  <header>
+    <div class="container">
+      <div class="logoArea">
+        <a href="/" class="image"><img src="./img/logo2.png"></a>
+        <a href="/" class="siteName">
+          <h1><span class="highlight">Game</span> Store</h1>
+        </a>
+      </div>
+      <div class="menuArea">
+        <i class="fa fa-bars menuBtn"></i>
+      </div>
+      <div class="navBar">
+        <ul>
+          <li><a href="index.html" class="active">🏠Home</a></li>
+          <li><a href="categoryGame.html">🏹Action</a></li>
+          <li><a href="categoryGame.html">🔑Adventure</a></li>
+          <li><a href="categoryGame.html">💃Simulation</a></li>
+          <li><a href="categoryGame.html">🌴Survival</a></li>
+          <li><a href="categoryGame.html">⚽Sports</a></li>
+          <li><a href="categoryGame.html">🚗Racing</a></li>
+          <li><a href="categoryGame.html">💀Horror</a></li>
+          <li><a href="create.html">✍🏻 Create post</a></li>
+          <li><a href="">🚪LogOut</a></li>
+          <li><a href="profile.html">👨‍💻 My Profile</a></li>
+          <li><a href="login.html">🔑 LogIn</a></li>
+          <li><a href="register.html">✍🏻 Register</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="bg1">
+    <div class="main-container">
+      <div class="box">
+        <h1 class="formName">Register</h1>
+        <form>
+          <label>Username</label>
+          <input type="text" formControlName="username" minlength="3" required />
+
+          <label>Email</label>
+          <input type="email" formControlName="email" required />
+
+          <label>Password</label>
+          <input type="password" formControlName="password" minlength="6" required />
+
+          <label>Confirm Password</label>
+          <input type="password" formControlName="repassword" minlength="6" required />
+
+          <button class="submitBtn" type="submit">Register</button>
+        </form>
+        <p class="login-register">
+          Already have an account? <a href="login.html">Login here</a>
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="navBar">
+        <ul>
+          <li><a href="/">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div class="textArea">
+        <h1>Designed with<span class="red"> ❤</span> by
+          <a><span class="colored">Muki</span></a> | Distributed by
+          <a><span class="colored">Muksin</span></a>
+        </h1>
+      </div>
+    </div>
+  </footer>
+
+</body>
+<script src="js/navbar.js"></script>
+
+</html>
