@@ -1,24 +1,64 @@
-# 🎮 Free Full Games
-Free Full Games is the my first Responsive WebSite. It is not completely finished and errors may occur !
-<br/>
+# 🎮Game Store
+ This is my responsive Game Store Web Template. You can see pictures of all the pages below.
 
-## Download the latest revision
+ I made a single page application (SPA) with Angular using this template, if you want you can visit it from [here](https://github.com/muki01/Game_Store-Angular).
+
+# ⬇️Download the latest revision
+Download using this code:
 ```
-# Download using this code:
-
 git clone https://github.com/muki01/Gaming_Website_Template.git
 ```
 
-## :scroll: Changelog
-Free Full Games gets updates with new features, improvements, and bugfixes.
-Be sure to check out the [changelog here]().
+# 🏠Home Page
 
-## This is Main Page
-![a](https://user-images.githubusercontent.com/75759731/196291986-373a1e01-82f3-4eab-8a86-7063580fc50e.jpeg)
+  ![Home](https://github.com/muki01/Gaming_Website_Template/assets/75759731/ac804b68-06f3-4f84-9a46-fee686aff6e6)
+  
 
-<br>
-<br>
-<br>
+# 🔑Login Page
 
-## This is one of Menus
-![b](https://user-images.githubusercontent.com/75759731/196292207-c7ce88ae-ece6-4a0b-97c0-49e9bde86996.jpeg)
+![Login](https://github.com/muki01/Gaming_Website_Template/assets/75759731/a02700eb-b66d-45bf-8bc9-3f288db83bbb)
+
+
+# ✍🏻Register Page
+  
+![Register](https://github.com/muki01/Gaming_Website_Template/assets/75759731/4f19d9eb-21ed-4093-8210-31fdb0cf97ba)
+
+
+# ✍🏻Create new game
+
+![Create](https://github.com/muki01/Gaming_Website_Template/assets/75759731/bc2163e5-9d3e-4f4d-bbfb-d6db61006467)
+
+
+# 👨‍💻Profile Page
+
+![Profile](https://github.com/muki01/Gaming_Website_Template/assets/75759731/278157c4-b639-4d28-ac04-a40f86edcef6)
+
+
+# 🌴Game Category Page
+
+![Category](https://github.com/muki01/Gaming_Website_Template/assets/75759731/60b196a8-5d60-4701-a027-17552f285f6d)
+
+
+# Details Page
+  
+![Details](https://github.com/muki01/Gaming_Website_Template/assets/75759731/71ddf756-1be6-495b-8196-2b85a86f31de)
+
+
+# Edit Page
+
+![Edit](https://github.com/muki01/Gaming_Website_Template/assets/75759731/7418cfc7-dacc-4a23-a895-153c27a6051a)
+
+
+# 404 Not Found
+
+![404](https://github.com/muki01/Gaming_Website_Template/assets/75759731/ed6a8335-68f2-4682-a899-ce56fd209e64)
+
+# Error Fields
+All pages have error fields.
+
+![Error](https://github.com/muki01/Gaming_Website_Template/assets/75759731/bac6b58e-ee60-445d-9630-b68768b3cddc)
+
+# No Games Fields
+All pages have No Games fields.
+
+![NoGames](https://github.com/muki01/Gaming_Website_Template/assets/75759731/a21a45c6-06ce-4092-a0b7-d66205653c93)
