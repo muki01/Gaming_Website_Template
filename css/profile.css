@@ -10,8 +10,8 @@
 }
 
 body {
+    min-height: 100vh;
     background-color: #f8f8f8;
-    scrollbar-width: none;
 }
 body::-webkit-scrollbar {
     display: none;
@@ -48,7 +48,6 @@ body::-webkit-scrollbar {
 header {
     width: 100%;
     height: 60px;
-    position: relative;
     background-color: white;
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
     z-index: 1;
@@ -133,6 +132,7 @@ main .main-container {
     width: 95%;
     margin: auto;
     display: grid;
+    align-items: start;
     grid-template-columns: 20% 75%;
     column-gap: 5%;
 }
@@ -142,7 +142,6 @@ main hr {
 }
 
 .sideBar {
-    height: 500px;
     background-color: white;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.18);
     border-radius: 10px;
@@ -328,11 +327,6 @@ footer .textArea .colored {
 }
 
 @media screen and (max-width: 1120px) {
-    header {
-        background-color: white;
-        position: relative;
-    }
-
     header .menuArea {
         display: block;
     }

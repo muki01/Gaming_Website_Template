@@ -10,8 +10,8 @@
 }
 
 body {
+    min-height: 100vh;
     background-color: #f8f8f8;
-    scrollbar-width: none;
 }
 body::-webkit-scrollbar {
     display: none;
@@ -48,7 +48,6 @@ body::-webkit-scrollbar {
 header {
     width: 100%;
     height: 60px;
-    position: relative;
     background-color: white;
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
     z-index: 1;
@@ -226,14 +225,13 @@ section .btnArea {
     margin-bottom: 15px;
 }
 section .btnArea .btn {
+    display: inline-block;
     padding: 12px 20px;
     font-size: 16px;
     color: white;
     background-color: rgb(99, 202, 159);
-    border: none;
     border-radius: 6px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
 }
 
 section .btnArea .btn:hover {
@@ -505,11 +503,6 @@ footer .textArea .colored {
     color: #0ee6af;
 }
 @media screen and (max-width: 1120px) {
-    header {
-        background-color: white;
-        position: relative;
-    }
-
     header .menuArea {
         display: block;
     }

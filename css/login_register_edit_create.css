@@ -10,8 +10,8 @@
 }
 
 body {
+    min-height: 100vh;
     background-color: #f8f8f8;
-    scrollbar-width: none;
 }
 body::-webkit-scrollbar {
     display: none;
@@ -48,7 +48,6 @@ body::-webkit-scrollbar {
 header {
     width: 100%;
     height: 60px;
-    position: relative;
     background-color: white;
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
     z-index: 1;
@@ -127,18 +126,6 @@ main {
 .bg1 {
     background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
         url("../img/background1.jpg");
-    background-size: cover;
-    background-position: center;
-}
-.bg2 {
-    background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url("../img/background2.jpg");
-    background-size: cover;
-    background-position: center;
-}
-.bg3 {
-    background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url("../img/background3.gif");
     background-size: cover;
     background-position: center;
 }
@@ -275,11 +262,6 @@ footer .textArea .colored {
 }
 
 @media screen and (max-width: 1120px) {
-    header {
-        background-color: white;
-        position: relative;
-    }
-
     header .menuArea {
         display: block;
     }
