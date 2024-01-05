@@ -46,6 +46,7 @@ body::-webkit-scrollbar {
 }
 
 header {
+    position: relative;
     width: 100%;
     height: 60px;
     background-color: white;
@@ -129,7 +130,8 @@ header .menuArea .menuBtn {
 
 #hero-banner .textArea {
     text-align: center;
-    padding-top: 200px;
+    padding-top: 160px;
+    padding-bottom: 40px;
 }
 
 #hero-banner .textArea h1 {
@@ -535,19 +537,16 @@ footer .textArea .colored {
     header .navBar ul li a {
         color: white;
     }
-    #banner {
-        height: 500px;
+
+    #hero-banner .textArea {
+        padding-top: 120px;
     }
 
-    #banner .textArea {
-        padding-top: 140px;
-    }
-
-    #banner .textArea h1 {
+    #hero-banner .textArea h1 {
         font-size: 44px;
     }
 
-    #banner .textArea p {
+    #hero-banner .textArea p {
         font-size: 16px;
         width: 60%;
     }
@@ -557,7 +556,10 @@ footer .textArea .colored {
 }
 
 @media screen and (max-width: 768px) {
-    #banner .textArea p {
+    #hero-banner .textArea {
+        padding-top: 100px;
+      }
+    #hero-banner .textArea p {
         width: 80%;
     }
     main .main-container {
@@ -578,9 +580,6 @@ footer .textArea .colored {
 }
 
 @media screen and (max-width: 620px) {
-    #banner {
-        height: 450px;
-    }
     section .article-area {
         grid-template-columns: 100%;
     }
