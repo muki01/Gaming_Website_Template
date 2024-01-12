@@ -1,0 +1,27 @@
+.error {
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    z-index: 2;
+}
+
+.error .errorBox {
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    background-color: #e25656;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.error .errorBox .container {
+    padding: 10px 20px;
+}
+
+.error .errorBox h1 {
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+}

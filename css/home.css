@@ -1,9 +1,10 @@
-@import url('components/base.css');
-@import url('components/header.css');
-@import url('components/footer.css');
-@import url('components/gameDetail.css');
-@import url('components/aside.css');
-@import url('components/error-box.css');
+@import url("components/base.css");
+@import url("components/header.css");
+@import url("components/footer.css");
+@import url("components/aside.css");
+@import url("components/articles.css");
+@import url("components/banner.css");
+@import url("components/error-box.css");
 
 main {
     width: 100%;

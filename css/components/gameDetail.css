@@ -1,0 +1,166 @@
+section .container {
+    width: 95%;
+    margin: auto;
+    padding: 20px 0 10px 0;
+}
+
+section .postArea {
+    background-color: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+section .postArea img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+section .postArea .textArea {
+    display: flex;
+    justify-content: space-between;
+}
+section .postArea .textArea h1 {
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    margin: 8px 0;
+}
+section .postArea .textArea .options {
+    margin: auto 0;
+    text-align: end;
+}
+section .postArea .options a {
+    display: inline-block;
+    margin: 5px 5px;
+    color: black;
+    font-weight: bold;
+    transition: none;
+    cursor: pointer;
+}
+section .postArea .options a:hover {
+    color: #57cb9b;
+}
+
+section .postArea .options a.liked{
+    color: #ff0000;
+}
+
+section .postArea hr {
+    border: 2px solid #e0e0e0;
+    margin-bottom: 4px;
+}
+
+section .moreGamesArea hr,
+section .commentsArea hr {
+    border: 2px solid #e0e0e0;
+    margin-bottom: 10px;
+}
+
+section .postArea h2 {
+    margin-bottom: 10px;
+    color: #aaaaaa;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 30px;
+}
+
+section .postArea h2 a {
+    color: #aaaaaa;
+}
+
+section .postArea h2 a:hover {
+    color: #57cb9b;
+}
+
+section .postArea p {
+    font-size: 18px;
+    color: #65656a;
+    margin-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+
+section .btnArea {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-bottom: 15px;
+}
+section .btnArea .btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #57cb9b;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+section .btnArea .btn:hover {
+    background-color: #1f2024;
+}
+
+section .btnArea .downloadArea {
+    text-align: center;
+}
+section .moreGamesArea {
+    background-color: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+section .moreGamesArea h1 {
+    color: #57cb9b;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+section .moreGamesArea .postContainer {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 2%;
+}
+section .moreGamesArea .post img {
+    width: 100%;
+    border-radius: 10px;
+}
+section .moreGamesArea .post img:hover {
+    opacity: 80%;
+}
+
+section .moreGamesArea .post a {
+    transition: 0.1s ease;
+    color: black;
+}
+section .moreGamesArea .post a:hover {
+    transition: 0.1s ease;
+    color: #57cb9b;
+}
+section .moreGamesArea .post a h2 {
+    font-weight: bold;
+}
+
+section .commentsArea {
+    background-color: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+section .commentsArea h1 {
+    color: #57cb9b;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    section .container {
+        width: 90%;
+    }
+
+    section .postArea .textArea .options {
+        margin: auto 0;
+        margin-left: auto;
+    }
+}

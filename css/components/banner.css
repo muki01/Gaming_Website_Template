@@ -1,0 +1,76 @@
+#hero-banner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("../../img/banner1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#hero-banner .textArea {
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 40px;
+}
+
+#hero-banner .textArea h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+
+#hero-banner .textArea h1 .highlight {
+    color: #ffa500;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+
+#hero-banner .textArea p {
+    color: #fff;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    text-shadow: 2px 2px 2px black;
+}
+
+#hero-banner .textArea .btn {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #57cb9b;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+#hero-banner .textArea .btn:hover {
+    background-color: #1f2024;
+}
+
+@media screen and (max-width: 1120px) {
+    #hero-banner .textArea {
+        padding-top: 120px;
+    }
+
+    #hero-banner .textArea h1 {
+        font-size: 44px;
+    }
+
+    #hero-banner .textArea p {
+        font-size: 16px;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #hero-banner .textArea {
+        padding-top: 100px;
+      }
+    #hero-banner .textArea p {
+        width: 80%;
+    }
+}

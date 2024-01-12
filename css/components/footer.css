@@ -1,0 +1,46 @@
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #1f2024;
+}
+
+footer .navBar {
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+footer .navBar li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .navBar li a {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+footer .navBar li a:hover {
+    color: #57cb9b;
+}
+
+footer .textArea {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+
+footer .textArea h1 {
+    color: #fff;
+    margin: 5px 15px;
+}
+
+footer .textArea .red {
+    color: #ff0000;
+}
+
+footer .textArea .colored {
+    color: #57cb9b;
+}

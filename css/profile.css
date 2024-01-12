@@ -1,122 +1,7 @@
-* {
-    scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
-    font: 16px sans-serif;
-    list-style: none;
-    text-decoration: none;
-    transition: 0.2s ease;
-    -webkit-tap-highlight-color: transparent;
-}
-
-body {
-    min-height: 100vh;
-    background-color: #f8f8f8;
-}
-body::-webkit-scrollbar {
-    display: none;
-}
-
-.error {
-    width: 100%;
-    position: absolute;
-    top: 70px;
-    z-index: 2;
-}
-
-.error .errorBox {
-    margin: 0 auto;
-    width: 300px;
-    height: auto;
-    background-color: #e25656;
-    border-radius: 20px;
-    box-shadow: 0px 2px 10px 0 rgba(0, 0, 0, 0.3);
-}
-
-.error .errorBox .container {
-    padding: 10px 20px;
-}
-
-.error .errorBox h1 {
-    font-size: 24px;
-    font-family: sans-serif;
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px 2px black;
-}
-
-header {
-    position: relative;
-    width: 100%;
-    height: 60px;
-    background-color: white;
-    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
-    z-index: 1;
-}
-header .container {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header .logoArea img {
-    width: 60px;
-}
-
-header .logoArea img:hover {
-    opacity: 80%;
-}
-
-header .logoArea .siteName {
-    display: none;
-}
-
-header .logoArea .siteName h1 {
-    font-size: 28px;
-    color: black;
-    font-weight: bold;
-    line-height: 60px;
-}
-
-header .logoArea .siteName h1 .highlight {
-    color: orange;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-header .navBar ul li {
-    display: inline-block;
-    margin: 0 5px;
-}
-
-header .navBar ul li a {
-    color: black;
-    font-size: 16px;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-header .navBar ul li a.active {
-    color: orange;
-}
-
-header .navBar ul li a:hover {
-    color: rgb(99, 202, 159);
-}
-
-header .menuArea {
-    display: none;
-}
-
-header .menuArea .menuBtn {
-    font-size: 30px;
-    cursor: pointer;
-    line-height: 60px;
-}
+@import url("components/base.css");
+@import url("components/header.css");
+@import url("components/footer.css");
+@import url("components/error-box.css");
 
 main {
     width: 100%;
@@ -143,8 +28,8 @@ main hr {
 }
 
 .sideBar {
-    background-color: white;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.18);
+    background-color: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 .sideBar-container {
@@ -160,23 +45,25 @@ main hr {
     font-size: 24px;
     font-weight: bold;
     font-family: "Poppins", sans-serif;
+    overflow-wrap: break-word;
 }
 .sideBar h2 {
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
     font-size: 14px;
+    overflow-wrap: break-word;
 }
 
 section .myGamesArea {
     padding: 10px 20px;
-    background-color: white;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.18);
+    background-color: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin-bottom: 20px;
 }
 section .myGamesArea h1 {
-    color: #75dab0;
+    color: #57cb9b;
     font-size: 22px;
     font-weight: bold;
     font-family: "Poppins", sans-serif;
@@ -207,7 +94,7 @@ section .myGamesArea .post a {
 }
 section .myGamesArea .post a:hover {
     transition: 0.1s ease;
-    color: #75dab0;
+    color: #57cb9b;
 }
 section .myGamesArea .post a h2 {
     font-weight: bold;
@@ -218,13 +105,13 @@ section .myGamesArea .post a h2 {
 
 section .settingsArea {
     padding: 10px 20px;
-    background-color: white;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.18);
+    background-color: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 
 section .settingsArea h1 {
-    color: #75dab0;
+    color: #57cb9b;
     font-size: 22px;
     font-weight: bold;
     font-family: "Poppins", sans-serif;
@@ -247,12 +134,12 @@ section .settingsArea .row h2 {
     text-align: end;
 }
 section .settingsArea .row .validation {
-    color: red;
+    color: #ff0000;
 }
 section .settingsArea .row input {
     padding: 7px;
     box-sizing: border-box;
-    border: 1px solid gray;
+    border: 1px solid #808080;
     border-radius: 6px;
 }
 
@@ -262,7 +149,7 @@ section .settingsArea .row textarea {
     box-sizing: border-box;
     resize: none;
     padding: 5px;
-    border: 1px solid gray;
+    border: 1px solid #808080;
     border-radius: 6px;
 }
 
@@ -272,99 +159,16 @@ section .settingsArea .submitBtn {
     margin-top: 20px;
     border: none;
     border-radius: 6px;
-    background-color: #49c1a2;
-    color: white;
+    background-color: #57cb9b;
+    color: #fff;
     font-size: 18px;
     cursor: pointer;
 }
 section .settingsArea .submitBtn:hover {
     background-color: black;
 }
-footer {
-    width: 100%;
-    height: auto;
-    background-color: #1f2024;
-}
-
-footer .navBar {
-    padding: 20px 0 10px 0;
-    text-align: center;
-}
-
-footer .navBar li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-footer .navBar li a {
-    color: white;
-    font-size: 14px;
-    font-family: "Poppins", sans-serif;
-    cursor: pointer;
-}
-
-footer .navBar li a:hover {
-    color: #0ee6af;
-}
-
-footer .textArea {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 10px 0 30px 0;
-}
-
-footer .textArea h1 {
-    color: white;
-    margin: 5px 15px;
-}
-
-footer .textArea .red {
-    color: red;
-}
-
-footer .textArea .colored {
-    color: #0ee6af;
-}
 
 @media screen and (max-width: 1120px) {
-    header .menuArea {
-        display: block;
-    }
-
-    header .logoArea .image {
-        display: none;
-    }
-
-    header .logoArea .siteName {
-        display: block;
-        width: 220px;
-    }
-
-    header .navBar {
-        width: 100%;
-        background-color: #1f2024;
-        max-height: 0px;
-        overflow: hidden;
-        visibility: hidden;
-        transition: all 0.5s ease;
-    }
-
-    header .navBar.open {
-        visibility: visible;
-    }
-
-    header .navBar ul {
-        padding: 0 30px;
-    }
-
-    header .navBar ul li {
-        display: block;
-        margin: 15px 0;
-    }
-    header .navBar ul li a {
-        color: white;
-    }
     section .myGamesArea .postContainer {
         grid-template-columns: 24% 24% 24% 24%;
         column-gap: 1.3%;

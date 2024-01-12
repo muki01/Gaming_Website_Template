@@ -1,0 +1,176 @@
+aside .box {
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+aside .box .container {
+    width: 85%;
+    margin: auto;
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: 100%;
+}
+aside .box h1 {
+    color: #57cb9b;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+aside .socialMedia .post {
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    column-gap: 1%;
+}
+
+aside .socialMedia .post a {
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+aside hr {
+    border: 2px solid #e0e0e0;
+    margin-bottom: 10px;
+}
+
+aside .socialMedia .post a i {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+aside .socialMedia .post a:hover {
+    opacity: 80%;
+}
+
+aside .socialMedia .post a:nth-child(1) {
+    background-color: #3b5999;
+}
+
+aside .socialMedia .post a:nth-child(2) {
+    background-color: #e4405f;
+}
+
+aside .socialMedia .post a:nth-child(3) {
+    background-color: #55acee;
+}
+
+aside .socialMedia .post a:nth-child(4) {
+    background-color: #dd4b39;
+}
+
+aside .socialMedia .post a:nth-child(5) {
+    background-color: #171515;
+}
+
+aside .searchBox .post {
+    height: 35px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+aside .searchBox .post input {
+    border-radius: 5px 0 0 5px;
+    border: 2px solid #e0e0e0;
+    color: #aaaaaa;
+    font-size: 14px;
+    padding: 0px 5px;
+}
+
+aside .searchBox .post a {
+    display: block;
+    line-height: 35px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+    background-color: #57cb9b;
+    color: #fff;
+    cursor: pointer;
+}
+
+aside .searchBox .post a:hover {
+    background-color: #1f2024;
+}
+
+aside .popularPost .post {
+    display: grid;
+    grid-template-columns: 40% 57%;
+    column-gap: 3%;
+    margin-bottom: 10px;
+}
+aside .popularPost .post img {
+    width: 100%;
+    height: 60px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+aside .popularPost .post img:hover {
+    opacity: 80%;
+}
+
+aside .popularPost .post h2 {
+    color: black;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+aside .popularPost .post h2:hover {
+    color: #57cb9b;
+}
+
+aside .popularPost .noGames h2 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Open Sans" sans-serif;
+}
+
+aside .aboutMe .post {
+    display: grid;
+    grid-template-columns: 27% 70%;
+    column-gap: 3%;
+}
+aside .aboutMe .post img {
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+aside .aboutMe .post img:hover {
+    opacity: 80%;
+}
+
+aside .aboutMe .post h2 {
+    display: inline-block;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+aside .aboutMe .post h3 {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+aside .aboutMe .post h2:hover,
+aside .aboutMe .post h3:hover {
+    color: #57cb9b;
+}
+
+@media screen and (max-width: 768px) {
+    aside .popularPost .post {
+        grid-template-columns: 30% 67%;
+        column-gap: 3%;
+    }
+    aside .aboutMe .post {
+        grid-template-columns: 20% 77%;
+        column-gap: 3%;
+    }
+    aside .popularPost .post h2,
+    aside .aboutMe .post h2 {
+        font-size: 18px;
+    }
+}

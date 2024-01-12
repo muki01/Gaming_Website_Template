@@ -1,0 +1,112 @@
+header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+header .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logoArea img {
+    width: 60px;
+}
+
+header .logoArea img:hover {
+    opacity: 80%;
+}
+
+header .logoArea .siteName {
+    display: none;
+}
+
+header .logoArea .siteName h1 {
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+header .logoArea .siteName h1 .highlight {
+    color: #ffa500;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+header .navBar ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+header .navBar ul li a {
+    color: black;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header .navBar ul li a.active {
+    color: #ffa500;
+}
+
+header .navBar ul li a:hover {
+    color: #57cb9b;
+}
+
+header .menuArea {
+    display: none;
+}
+
+header .menuArea .menuBtn {
+    font-size: 30px;
+    cursor: pointer;
+    line-height: 60px;
+}
+
+@media screen and (max-width: 1120px) {
+    header .menuArea {
+        display: block;
+    }
+
+    header .logoArea .image {
+        display: none;
+    }
+
+    header .logoArea .siteName {
+        display: block;
+        width: 220px;
+    }
+
+    header .navBar {
+        width: 100%;
+        background-color: #1f2024;
+        max-height: 0px;
+        overflow: hidden;
+        visibility: hidden;
+        transition: all 0.5s ease;
+    }
+
+    header .navBar.open {
+        visibility: visible;
+    }
+
+    header .navBar ul {
+        padding: 0 30px;
+    }
+
+    header .navBar ul li {
+        display: block;
+        margin: 15px 0;
+    }
+    header .navBar ul li a {
+        color: #fff;
+    }
+}
