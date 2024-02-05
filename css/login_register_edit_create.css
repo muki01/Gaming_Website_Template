@@ -3,13 +3,18 @@
 @import url("components/footer.css");
 @import url("components/error-box.css");
 
+body{
+    background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("../img/background1.jpg");
+    background-size: cover;
+    background-position: center;
+}
 main {
     margin-top: 0px;
     height: auto;
-    min-height: 750px;
     font-family: "Roboto", sans-serif;
 }
-.bg1 {
+/* .bg1 {
     background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
         url("../img/background1.jpg");
     background-size: cover;
@@ -25,8 +30,8 @@ main {
     background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
         url("../img/background3.gif");
     background-size: cover;
-    background-position: center;
-}
+    background-position: center; 
+}*/
 main .main-container {
     margin: auto;
     padding: 60px 0;
