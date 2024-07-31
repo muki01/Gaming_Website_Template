@@ -7,8 +7,7 @@ main {
     width: 100%;
     max-width: 1920px;
     height: auto;
-    margin: auto;
-    margin: 40px 0;
+    margin: 40px auto;
     background: url("../img/bg.png");
     background-size: 30%;
     background-position: center;
@@ -22,6 +21,7 @@ main .main-container {
     grid-template-columns: 20% 75%;
     column-gap: 5%;
 }
+
 main hr {
     border: 2px solid #e0e0e0;
     margin-bottom: 10px;
@@ -29,17 +29,20 @@ main hr {
 
 .sideBar {
     background-color: #fff;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
+
 .sideBar-container {
     padding: 20px;
     text-align: center;
 }
+
 .sideBar img {
     width: 80%;
     border-radius: 50%;
 }
+
 .sideBar h1 {
     text-align: center;
     font-size: 24px;
@@ -47,42 +50,48 @@ main hr {
     font-family: "Poppins", sans-serif;
     overflow-wrap: break-word;
 }
+
 .sideBar h2 {
     text-align: center;
-    font-family: "Open Sans", sans-serif;
-    font-weight: bold;
     font-size: 14px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
     overflow-wrap: break-word;
 }
 
 section .myGamesArea {
     padding: 10px 20px;
     background-color: #fff;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
 section .myGamesArea h1 {
     color: #57cb9b;
     font-size: 22px;
     font-weight: bold;
     font-family: "Poppins", sans-serif;
 }
+
 section .myGamesArea .postContainer {
     display: grid;
-    grid-template-columns: 18% 18% 18% 18% 18%;
-    column-gap: 2.5%;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 10px;
 }
+
 section .myGamesArea .post {
     background-color: #f8f8f8;
     border-radius: 10px;
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
     margin-bottom: 20px;
 }
+
 section .myGamesArea .post img {
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
+
 section .myGamesArea .post img:hover {
     opacity: 80%;
 }
@@ -92,10 +101,12 @@ section .myGamesArea .post a {
     color: black;
     cursor: pointer;
 }
+
 section .myGamesArea .post a:hover {
     transition: 0.1s ease;
     color: #57cb9b;
 }
+
 section .myGamesArea .post a h2 {
     font-weight: bold;
     display: inline-block;
@@ -106,7 +117,7 @@ section .myGamesArea .post a h2 {
 section .settingsArea {
     padding: 10px 20px;
     background-color: #fff;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 
@@ -121,23 +132,27 @@ section .settingsArea .settings {
     width: 50%;
     text-align: center;
 }
+
 section .settingsArea .row {
     display: grid;
-    grid-template-columns: auto 70%;
-    column-gap: 3%;
+    grid-template-columns: 1fr 2.5fr;
+    column-gap: 10px;
     margin-bottom: 10px;
 }
+
 section .settingsArea .row h2 {
+    font-size: 18px;
     font-weight: bold;
     font-family: "Poppins", sans-serif;
-    font-size: 18px;
     text-align: end;
 }
+
 section .settingsArea .row .validation {
     color: #ff0000;
 }
+
 section .settingsArea .row input {
-    padding: 7px;
+    padding: 6px 8px;
     box-sizing: border-box;
     border: 1px solid #808080;
     border-radius: 6px;
@@ -148,30 +163,30 @@ section .settingsArea .row textarea {
     height: 200px;
     box-sizing: border-box;
     resize: none;
-    padding: 5px;
+    padding: 6px 8px;
     border: 1px solid #808080;
     border-radius: 6px;
 }
 
 section .settingsArea .submitBtn {
-    width: 50%;
-    height: 35px;
+    padding: 10px 60px;
     margin-top: 20px;
     border: none;
+    outline: none;
     border-radius: 6px;
     background-color: #57cb9b;
     color: #fff;
     font-size: 18px;
     cursor: pointer;
 }
+
 section .settingsArea .submitBtn:hover {
     background-color: black;
 }
 
 @media screen and (max-width: 1120px) {
     section .myGamesArea .postContainer {
-        grid-template-columns: 24% 24% 24% 24%;
-        column-gap: 1.3%;
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
@@ -180,18 +195,20 @@ section .settingsArea .submitBtn:hover {
         width: 90%;
         grid-template-columns: 100%;
     }
+
     .sideBar {
-        height: auto;
         margin-bottom: 20px;
     }
+
     .sideBar img {
         width: 50%;
         border-radius: 50%;
     }
+
     section .myGamesArea .postContainer {
-        grid-template-columns: 32% 32% 32%;
-        column-gap: 2%;
+        grid-template-columns: repeat(3, 1fr);
     }
+
     section .settingsArea .settings {
         width: 100%;
     }
@@ -199,7 +216,6 @@ section .settingsArea .submitBtn:hover {
 
 @media screen and (max-width: 520px) {
     section .myGamesArea .postContainer {
-        grid-template-columns: 48% 48%;
-        column-gap: 4%;
+        grid-template-columns: repeat(2, 1fr);
     }
 }

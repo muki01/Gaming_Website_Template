@@ -6,7 +6,7 @@ footer {
 }
 
 footer .navBar {
-    padding: 20px 0 10px 0;
+    padding: 20px 0 10px;
     text-align: center;
 }
 
@@ -30,7 +30,7 @@ footer .textArea {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 10px 0 30px 0;
+    padding: 10px 0 30px;
 }
 
 footer .textArea h1 {
